@@ -1,0 +1,40 @@
+main{
+    background-color: #E69600 ;
+}
+section{
+    margin:10px;
+}
+.paginas__web{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #AA1E1E;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.trabajos__realizados{
+    margin: 20 px;
+}
+.trabajos__realizados img{
+    margin:15px;
+}
+.trabajos__realizados img:hover{
+   transform: scale(1.5);
+}
+.tituloProyecto{
+    font-family: 'Josefin Slab', serif;
+    font-size: 25px;
+    margin:5px;
+    text-align: center;
+
+
+}

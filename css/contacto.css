@@ -1,0 +1,31 @@
+main{
+    background-color: #E69600 ;
+}
+#contact{
+    margin:20px;
+    padding:20px;
+    background-color: white;       
+}
+#contact legend {
+    font-family:fantasy;
+    font-size: 20px;
+    color: darkgray;
+    text-align: center;
+    background-color: brown;
+    margin: 15px;
+    padding: 10px;
+}
+#contact label{
+    display: block;
+    margin-left: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact input{
+    margin:10px;
+    padding: 10px;
+}
+#contact textarea{
+    display: block;
+    width: 80%;
+    height: 250px;
+}
