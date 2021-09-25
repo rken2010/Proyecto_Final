@@ -15,27 +15,49 @@
     <!-- Animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
     <title>Nuestros servicios de Diseño Web</title>
 </head>
 <body>
-    <header class="header" id="header">
-        <div class="logo">
-            <p>SpiderWeb</p>
-        </div>
-        <div class="nav__Bar">
-            <nav>
-                <ul>
-                    <li> <a href="index.html">Home</a></li>
-                    <li><a href="web.html">Web</a></li>
-                    <li><a href="marketing.html">Marketing</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contacto.html">Contacto</a> </li>
+    <header class="container-fluid header" id="header">
 
-                </ul>
-            </nav>
-         </div>
-    </header> 
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm ">
+            <div class="container-fluid">
+        
+              <button class="navbar-toggler navbar-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>    
+              </button>
+        
+                <div class="collapse navbar-collapse nav__Bar" id="navbarTogglerDemo01">
+                    <div class="logo nav-brand">
+                    <p>SpiderWeb</p></a>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                             <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="./marketing.html">Marketing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./web.html">Web</a>
+                        </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contacto.html">Contactos</a>
+                        </li>
+                    </ul>
+               
+                </div>
+        
+            </div>
+        </nav>
+        
+        </header>
  <main>
     <div class="encabezado__servicio">
         <h2 class="animate__animated animate__bounce animate__repeat-3	3">Te creamos tu web</h2>
@@ -105,6 +127,8 @@
         </div>
     </footer>
     <div class="boton-subida"><a href="#header"><img src="./img/boton_arriba.png" alt="boton-subida"></a></div>  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     
 </body>
 </html>

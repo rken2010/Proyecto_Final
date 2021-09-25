@@ -29,28 +29,7 @@ main{
 .container li{
     list-style: none;
 }
-.servicio{
-    margin:20px;
-    padding: 10px;
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(6,0,255,1) 0%, rgba(0,251,255,1) 76%);
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
 
-}
-.servicio:hover{
-    transform: scale(1.2);
-
-}
-.servicio i{
-    width: 25px;
-    height: 25px;
-    margin:15px
-}
-.servicio ul{
-    font-size: large;
-    font-family: 'Pacifico', cursive;
-}
 .titulo{
         margin: 15px;
         padding:10px;

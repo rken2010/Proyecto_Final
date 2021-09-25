@@ -103,3 +103,27 @@ footer{
     height: 100px;
     position: fixed;
 }
+
+@media(max-width: 576px){
+.logo p{
+    font-size: x-large;
+    font-weight: 100;
+    padding: 5px;
+}
+.nav__Bar a{
+    color: black;
+
+}
+
+.boton-subida{
+    display: none;
+}
+.site__map {
+    display: none;
+   
+   }
+main{
+    margin-top: 90px;
+}
+
+}
