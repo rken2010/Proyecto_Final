@@ -1,23 +1,154 @@
-.quienes__somos{
-    display: grid;
-    grid-template-areas: 
-        "titulo           img"  
-        "texto__contenido img"      
-        "texto__contenido boton__contacto"
-        ;
-    background-color: #E69600 ;
-   
-                    }
-.titulo{
-    grid-area: titulo;
-    padding:10px;
-    align-self: center;
-    margin-top: 25px;
-
-
+footer {
+  background-color: black;
+  font-size: "Special Elite", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: "Special Elite", cursive;
+  padding: 10px;
 }
-.titulo h2{
-    font-family: 'Josefin Slab', serif;
+
+footer .contacto, footer .mapa__sitio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  gap: 5px;
+}
+
+footer .mapa__sitio p {
+  text-decoration: underline;
+}
+
+footer .mapa__sitio li {
+  list-style: none;
+  margin: 5px;
+}
+
+footer .mapa__sitio a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 360px) {
+  footer .mapa__sitio {
+    display: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+}
+
+header .nav-brand {
+  font-family: "Special Elite", cursive;
+  color: white;
+  margin: 10px;
+  font-size: xx-large;
+  text-align: center;
+}
+
+header .nav-link {
+  font-family: "Special Elite", cursive;
+  color: white;
+  margin: 15px;
+}
+
+main .quienes__somos, main .marketing {
+  background-color: #E69600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .quienes__somos .titulo, main .marketing .titulo {
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  color: #AA1E1E;
+  text-decoration: underline;
+}
+
+main .quienes__somos .texto__contenido, main .marketing .texto__contenido {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main .quienes__somos .texto__contenido p, main .marketing .texto__contenido p {
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  text-align: center;
+  margin: 15px;
+}
+
+main .quienes__somos .img__relleno, main .marketing .img__relleno {
+  margin: 10px auto;
+}
+
+main .quienes__somos .boton__contacto, main .marketing .boton__contacto {
+  display: block;
+  color: white;
+  margin: 10px auto;
+}
+
+main .quienes__somos .boton__contacto a, main .marketing .boton__contacto a {
+  font-family: "Special Elite", cursive;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+main .marketing {
+  background-color: #FF5000;
+}
+
+main .marketing .boton__contacto {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+@media screen and (min-width: 500px) {
+  main .quienes__somos, main .marketing {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "titulo           img"   "texto__contenido img"       "texto__contenido boton__contacto";
+    background-color: #E69600;
+  }
+  main .titulo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: titulo;
+    padding: 10px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin-top: 25px;
+  }
+  main .titulo h2 {
+    font-family: "Josefin Slab", serif;
     text-align: center;
     text-decoration: underline;
     color: #AA1E1E;
@@ -25,53 +156,53 @@
     font-weight: 900;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-.texto__contenido {
+  }
+  main .texto__contenido {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
     grid-area: texto__contenido;
-    align-self: center;
-}
-.texto__contenido p {
-
-    font-family: 'Pacifico', cursive;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  main .texto__contenido p {
+    font-family: "Pacifico", cursive;
     font-size: 30px;
     text-align: center;
     margin: 15px;
-}
-.img__relleno{
+  }
+  main .img__relleno {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
     grid-area: img;
-    justify-self: center;
-    transition: 1s;
-
-}
-.img__relleno:hover{
-  transform: perspective(150px) rotateY(15deg);
-}
-.boton__contacto{
-
-    font-family: 'Special Elite', cursive;
+        justify-self: center;
+  }
+  main .img__relleno img {
+    width: 500px;
+    height: 500px;
+  }
+  main .boton__contacto {
     color: white;
-    grid-area: boton__contacto ;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: boton__contacto;
     margin: 20px;
-    justify-self: center;
-
-}
-.boton__contacto a{
-    
-    font-family: 'Special Elite', cursive;
+        justify-self: center;
+  }
+  main .boton__contacto a {
+    font-family: "Special Elite", cursive;
     color: white;
     background-color: black;
     margin: 15px;
     padding: 10px;
     border-radius: 5px;
-}
-
-.marketing{
+  }
+  main .marketing {
+    display: -ms-grid;
     display: grid;
-    grid-template-areas: 
-        "img       titulo"  
-        "img       texto__contenido"      
-        "boton__contacto    texto__contenido "
-        ;
-    background-color: #FF5000 ;
-
+        grid-template-areas: "img       titulo"   "img       texto__contenido"       "boton__contacto    texto__contenido ";
+    background-color: #FF5000;
+  }
 }
+/*# sourceMappingURL=index.css.map */

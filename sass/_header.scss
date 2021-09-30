@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$fuente-principal:'Josefin Slab', serif;
+$fuente-secundaria:'Pacifico', cursive;
+$fuente-links:'Special Elite', cursive;
+
+$color_primario:#E69600;
+$color_secundario:#FF5000;
+$color_titulo:#AA1E1E;
+
+header{
+    background-color: black;
+    .nav-brand{
+        font-family: $fuente-links;
+        color: white;
+        margin:10px;
+        font-size: xx-large;
+        text-align: center;
+    }
+    .nav-link{
+        font-family: $fuente-links;
+        color: white;
+        margin: 15px;
+    }
+}

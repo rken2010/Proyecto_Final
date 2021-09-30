@@ -1,0 +1,70 @@
+@import "header";
+@import "footer";
+
+$fuente-principal:'Josefin Slab', serif;
+$fuente-secundaria:'Pacifico', cursive;
+$fuente-links:'Special Elite', cursive;
+
+$color_primario:#E69600;
+$color_secundario:#FF5000;
+$color_titulo:#AA1E1E;
+
+main{
+    background-color: $color_primario;
+
+    h2{
+        font-family: $fuente-principal;
+        text-align: center;
+        text-decoration: underline;
+        color: $color_titulo;
+        font-size: 3em;
+        font-weight: 900;
+        }
+
+    .paginas__web{
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+        
+        article{
+            margin:1em;
+            width: 50%;
+           
+        }
+        .trabajos__realizados{
+               img{
+                max-width: 100%;
+                margin: 1em;
+            }
+                img:hover{
+                transform: scale(1.5);
+            }
+        }
+        .titulo__proyecto{
+            font-family: $fuente-principal;
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width:360px) {
+    main{
+        font-size: 80%;
+        .paginas__web{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .trabajos__realizados{
+        img{
+        max-width: 65%;
+        margin: 0 auto;
+        }
+   
+    }
+}
+

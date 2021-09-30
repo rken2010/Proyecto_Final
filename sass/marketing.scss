@@ -1,0 +1,41 @@
+@import "header";
+@import "footer";
+
+$fuente-principal:'Josefin Slab', serif;
+$fuente-secundaria:'Pacifico', cursive;
+$fuente-links:'Special Elite', cursive;
+
+
+
+main{
+    background-color: $color_primario;
+    padding: 10px;
+
+    .encabezado__servicio{
+
+        h2{
+        font-family: $fuente-principal;
+        font-size: 5em;
+        text-align: center;
+        padding: 10px;
+        }
+        p{
+        font-family: $fuente-secundaria;
+        font-size: 2em;
+        text-align: center;
+        }
+    }
+    article{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:360px) {
+    main{
+        font-size: 70%;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+}
