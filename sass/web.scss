@@ -31,10 +31,11 @@ section{
 @each $servicios in beginner, semi-senior, senior {
     .#{$servicios}{
         background-color: white;
-        border-radius: 20px;
+        border-radius: 30px;
         width: 30%;
         margin:3%;
         font-family:$fuente-secundaria;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
         h3{
             background-color: $color_titulo;
             font-family: $fuente-principal;
@@ -52,7 +53,11 @@ section{
             background-color: black;
             font-family: $fuente-links;
             text-align: center;
-            color: white;
+            a{
+                text-decoration: none;
+                color:white;
+            }
+
         }
     }
     

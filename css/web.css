@@ -24,10 +24,12 @@ section {
 
 .beginner {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 30px;
   width: 30%;
   margin: 3%;
   font-family: "Pacifico", cursive;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
 }
 
 .beginner h3 {
@@ -50,15 +52,21 @@ section {
   background-color: black;
   font-family: "Special Elite", cursive;
   text-align: center;
+}
+
+.beginner .boton a {
+  text-decoration: none;
   color: white;
 }
 
 .semi-senior {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 30px;
   width: 30%;
   margin: 3%;
   font-family: "Pacifico", cursive;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
 }
 
 .semi-senior h3 {
@@ -81,15 +89,21 @@ section {
   background-color: black;
   font-family: "Special Elite", cursive;
   text-align: center;
+}
+
+.semi-senior .boton a {
+  text-decoration: none;
   color: white;
 }
 
 .senior {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 30px;
   width: 30%;
   margin: 3%;
   font-family: "Pacifico", cursive;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
 }
 
 .senior h3 {
@@ -112,6 +126,10 @@ section {
   background-color: black;
   font-family: "Special Elite", cursive;
   text-align: center;
+}
+
+.senior .boton a {
+  text-decoration: none;
   color: white;
 }
 
