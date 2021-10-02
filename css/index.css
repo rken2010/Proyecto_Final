@@ -1,3 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+}
+
+header .nav-brand {
+  font-family: "Special Elite", cursive;
+  color: white;
+  margin: 10px;
+  font-size: xx-large;
+  text-align: center;
+}
+
+header .nav-link {
+  font-family: "Special Elite", cursive;
+  color: white;
+  margin: 15px;
+}
+
+header .nav-link:hover {
+  background-color: white;
+  color: black;
+}
+
 footer {
   background-color: black;
   font-size: "Special Elite", cursive;
@@ -39,33 +67,32 @@ footer .mapa__sitio a {
   text-decoration: none;
 }
 
+footer .mapa__sitio a:hover {
+  text-decoration: underline;
+}
+
+.boton-subida {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 10px;
+  right: 1px;
+  border-radius: 50%;
+}
+
+.boton-subida img {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+}
+
 @media (max-width: 360px) {
   footer .mapa__sitio {
     display: none;
   }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: black;
-}
-
-header .nav-brand {
-  font-family: "Special Elite", cursive;
-  color: white;
-  margin: 10px;
-  font-size: xx-large;
-  text-align: center;
-}
-
-header .nav-link {
-  font-family: "Special Elite", cursive;
-  color: white;
-  margin: 15px;
+  .boton-subida {
+    display: none;
+  }
 }
 
 main .quienes__somos, main .marketing {
@@ -109,14 +136,14 @@ main .quienes__somos .img__relleno, main .marketing .img__relleno {
 main .quienes__somos .boton__contacto, main .marketing .boton__contacto {
   display: block;
   color: white;
-  margin: 10px auto;
+  margin: 0.6em auto 1em auto;
 }
 
 main .quienes__somos .boton__contacto a, main .marketing .boton__contacto a {
   font-family: "Special Elite", cursive;
   color: white;
   background-color: black;
-  padding: 10px;
+  padding: 1em;
   border-radius: 5px;
   text-align: center;
 }
@@ -180,7 +207,7 @@ main .marketing .boton__contacto {
   }
   main .img__relleno img {
     width: 500px;
-    height: 500px;
+    height: auto;
   }
   main .boton__contacto {
     color: white;

@@ -3,8 +3,9 @@ $color_primario:#E69600;
 $color_secundario:#FF5000;
 $color_titulo:#AA1E1E;
 
-@import "footer";
 @import "header";
+@import "footer";
+
 
 main{
     .quienes__somos{
@@ -37,13 +38,13 @@ main{
 
             display: block;
             color: white;
-            margin: 10px auto;
+            margin: 0.6em auto 1em auto;
             a{
             
                 font-family: $fuente-links;
                 color: white;
                 background-color: black;
-                padding: 10px;
+                padding: 1em;
                 border-radius: 5px;
                 text-align: center;
             }
@@ -57,6 +58,7 @@ main{
         order:1;
     }
     }
+    
 }
 
 
@@ -106,7 +108,7 @@ main{
         justify-self: center;
         img{
             width: 500px;
-            height: 500px;
+            height: auto;
         }
 
     }
