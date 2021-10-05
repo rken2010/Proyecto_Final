@@ -17,8 +17,7 @@ main{
         font-family: $fuente-principal;
         font-size: 5em;
         text-align: center;
-        padding: 10px;
-        }
+           }
         p{
         font-family: $fuente-secundaria;
         font-size: 2em;
@@ -33,14 +32,16 @@ main{
 @media screen and (max-width:360px) {
 
     main{
-        font-size: 70%;
+        font-size: 60%;
     }
   
     article{
 
         display: flex;
         flex-direction: column;
-        margin: auto;
+        justify-content: center;
+        align-items: center;
+
     }
   
 }
