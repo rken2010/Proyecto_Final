@@ -9,12 +9,12 @@ $fuente-links:'Special Elite', cursive;
 
 main{
     background-color: $color_primario;
-    padding: 10px;
+
  
     .encabezado__servicio{
 
         h2{
-        font-family: $fuente-principal;
+        font-family: $fuente-principal !important;
         font-size: 5em;
         text-align: center;
            }
@@ -24,10 +24,7 @@ main{
         text-align: center;
         }
     }
-    article{
-        display: flex;
-        justify-content: space-between;
-    }
+
 }
 @media screen and (max-width:412px) {
 

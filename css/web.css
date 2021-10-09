@@ -3,23 +3,23 @@ main {
   padding: 10px;
 }
 
-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.encabezado__servicio h2 {
+main .encabezado__servicio h2 {
   font-family: "Josefin Slab", serif;
   font-size: 5em;
   text-align: center;
   padding: 10px;
 }
 
-.encabezado__servicio p {
+main .encabezado__servicio p {
   font-family: "Pacifico", cursive;
   font-size: 2.5em;
   text-align: center;
+}
+
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .beginner {
@@ -39,12 +39,17 @@ section {
   text-align: center;
 }
 
-.beginner li {
+.beginner ul {
+  font-size: 1.5em;
+}
+
+.beginner ul li {
   list-style: none;
 }
 
 .beginner i {
-  margin: 5px;
+  margin: 15px;
+  font-size: 1.7em;
 }
 
 .beginner .boton {
@@ -76,12 +81,17 @@ section {
   text-align: center;
 }
 
-.semi-senior li {
+.semi-senior ul {
+  font-size: 1.5em;
+}
+
+.semi-senior ul li {
   list-style: none;
 }
 
 .semi-senior i {
-  margin: 5px;
+  margin: 15px;
+  font-size: 1.7em;
 }
 
 .semi-senior .boton {
@@ -113,12 +123,17 @@ section {
   text-align: center;
 }
 
-.senior li {
+.senior ul {
+  font-size: 1.5em;
+}
+
+.senior ul li {
   list-style: none;
 }
 
 .senior i {
-  margin: 5px;
+  margin: 15px;
+  font-size: 1.7em;
 }
 
 .senior .boton {

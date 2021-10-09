@@ -11,7 +11,7 @@ header .nav-brand {
   font-family: "Special Elite", cursive;
   color: white;
   margin: 10px;
-  font-size: 2.25em;
+  font-size: xx-large;
   text-align: center;
 }
 
@@ -24,12 +24,6 @@ header .nav-link {
 header .nav-link:hover {
   background-color: white;
   color: black;
-}
-
-@media (max-width: 640px) {
-  .nav-brand {
-    font-size: 10%;
-  }
 }
 
 footer {
@@ -109,11 +103,10 @@ footer .mapa__sitio a:hover {
 
 main {
   background-color: #E69600;
-  padding: 10px;
 }
 
 main .encabezado__servicio h2 {
-  font-family: "Josefin Slab", serif;
+  font-family: "Josefin Slab", serif !important;
   font-size: 5em;
   text-align: center;
 }
@@ -122,15 +115,6 @@ main .encabezado__servicio p {
   font-family: "Pacifico", cursive;
   font-size: 2em;
   text-align: center;
-}
-
-main article {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 @media screen and (max-width: 412px) {
