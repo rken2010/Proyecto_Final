@@ -11,7 +11,7 @@ header .nav-brand {
   font-family: "Special Elite", cursive;
   color: white;
   margin: 10px;
-  font-size: xx-large;
+  font-size: 2.25em;
   text-align: center;
 }
 
@@ -24,6 +24,12 @@ header .nav-link {
 header .nav-link:hover {
   background-color: white;
   color: black;
+}
+
+@media (max-width: 640px) {
+  .nav-brand {
+    font-size: 10%;
+  }
 }
 
 footer {
@@ -90,6 +96,12 @@ footer .mapa__sitio a:hover {
   footer .mapa__sitio {
     display: none;
   }
+  .boton-subida {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
   .boton-subida {
     display: none;
   }

@@ -62,3 +62,8 @@ footer{
     display: none;
 }
 }
+@media (max-width:640px){
+    .boton-subida{
+        display: none;
+    }
+}

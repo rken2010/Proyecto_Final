@@ -11,7 +11,7 @@ header .nav-brand {
   font-family: "Special Elite", cursive;
   color: white;
   margin: 10px;
-  font-size: xx-large;
+  font-size: 2.25em;
   text-align: center;
 }
 
@@ -24,6 +24,12 @@ header .nav-link {
 header .nav-link:hover {
   background-color: white;
   color: black;
+}
+
+@media (max-width: 640px) {
+  .nav-brand {
+    font-size: 10%;
+  }
 }
 
 footer {
@@ -95,6 +101,12 @@ footer .mapa__sitio a:hover {
   }
 }
 
+@media (max-width: 640px) {
+  .boton-subida {
+    display: none;
+  }
+}
+
 main {
   background-color: #E69600;
   padding: 10px;
@@ -121,7 +133,7 @@ main article {
           justify-content: space-between;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 412px) {
   main {
     font-size: 60%;
   }
