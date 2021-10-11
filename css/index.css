@@ -71,7 +71,7 @@ footer .mapa__sitio a:hover {
   text-decoration: underline;
 }
 
-.boton-subida {
+.boton__subida {
   width: 100px;
   height: 100px;
   position: fixed;
@@ -80,7 +80,7 @@ footer .mapa__sitio a:hover {
   border-radius: 50%;
 }
 
-.boton-subida img {
+.boton__subida img {
   width: 100px;
   height: 100px;
   position: fixed;
@@ -90,13 +90,13 @@ footer .mapa__sitio a:hover {
   footer .mapa__sitio {
     display: none;
   }
-  .boton-subida {
+  .boton__subida {
     display: none;
   }
 }
 
 @media (max-width: 640px) {
-  .boton-subida {
+  .boton__subida {
     display: none;
   }
 }

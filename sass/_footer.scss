@@ -37,7 +37,7 @@ footer{
         }
     }
 }
-.boton-subida{
+.boton__subida{
         width: 100px;
         height: 100px;
         position: fixed;
@@ -58,12 +58,12 @@ footer{
     }
 
 }
-.boton-subida{
+.boton__subida{
     display: none;
 }
 }
 @media (max-width:640px){
-    .boton-subida{
+    .boton__subida{
         display: none;
     }
 }
