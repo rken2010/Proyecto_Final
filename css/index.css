@@ -101,6 +101,17 @@ footer .mapa__sitio a:hover {
   }
 }
 
+main {
+  background-color: #E69600;
+}
+
+main h1 {
+  font-family: "Special Elite", cursive;
+  text-align: center;
+  font-size: 3em;
+  padding: 10px;
+}
+
 main .quienes__somos, main .marketing {
   background-color: #E69600;
   display: -webkit-box;

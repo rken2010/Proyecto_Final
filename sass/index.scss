@@ -2,12 +2,21 @@
 $color_primario:#E69600;
 $color_secundario:#FF5000;
 $color_titulo:#AA1E1E;
+$fuente-titulo:'Special Elite', cursive;
 
 @import "header";
 @import "footer";
 
 
 main{
+    background-color: $color_primario;
+    h1{
+        font-family:$fuente-titulo ;
+        text-align: center;
+        font-size: 3em;
+        padding:10px;
+    }
+
     .quienes__somos{
         background-color: $color_primario;
         display:flex;

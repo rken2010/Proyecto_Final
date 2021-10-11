@@ -103,6 +103,7 @@ footer .mapa__sitio a:hover {
 
 main {
   background-color: #E69600;
+  padding: 2%;
 }
 
 main .encabezado__servicio h2 {
@@ -124,7 +125,7 @@ main article {
   gap: 10px;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 425px) {
   main {
     font-size: 60%;
   }

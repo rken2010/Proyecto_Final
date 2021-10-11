@@ -1,18 +1,16 @@
 main {
   background-color: #E69600;
-  padding: 10px;
+  padding: 1%;
 }
 
 main .encabezado__servicio h2 {
   font-family: "Josefin Slab", serif;
-  font-size: 5em;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 main .encabezado__servicio p {
   font-family: "Pacifico", cursive;
-  font-size: 2.5em;
   text-align: center;
 }
 
@@ -20,167 +18,112 @@ main section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main section h3 {
+  background-color: #AA1E1E;
+  text-align: center;
+  font-family: "Pacifico", cursive;
 }
 
 .beginner {
   background-color: white;
-  border-radius: 30px;
-  width: 30%;
-  margin: 3%;
-  font-family: "Pacifico", cursive;
+  margin-bottom: 10px;
   -webkit-box-shadow: #26394d 0px 20px 30px -10px;
           box-shadow: #26394d 0px 20px 30px -10px;
 }
 
-.beginner h3 {
-  background-color: #AA1E1E;
-  font-family: "Josefin Slab", serif;
-  color: yellow;
-  text-align: center;
-}
-
-.beginner ul {
-  font-size: 1.5em;
-}
-
-.beginner ul li {
+.beginner li {
   list-style: none;
 }
 
 .beginner i {
-  margin: 15px;
-  font-size: 1.7em;
+  margin-right: 15px;
 }
 
 .beginner .boton {
-  width: 35%;
   background-color: black;
-  font-family: "Special Elite", cursive;
   text-align: center;
 }
 
 .beginner .boton a {
   text-decoration: none;
   color: white;
+  font-family: "Special Elite", cursive;
 }
 
 .semi-senior {
   background-color: white;
-  border-radius: 30px;
-  width: 30%;
-  margin: 3%;
-  font-family: "Pacifico", cursive;
+  margin-bottom: 10px;
   -webkit-box-shadow: #26394d 0px 20px 30px -10px;
           box-shadow: #26394d 0px 20px 30px -10px;
 }
 
-.semi-senior h3 {
-  background-color: #AA1E1E;
-  font-family: "Josefin Slab", serif;
-  color: yellow;
-  text-align: center;
-}
-
-.semi-senior ul {
-  font-size: 1.5em;
-}
-
-.semi-senior ul li {
+.semi-senior li {
   list-style: none;
 }
 
 .semi-senior i {
-  margin: 15px;
-  font-size: 1.7em;
+  margin-right: 15px;
 }
 
 .semi-senior .boton {
-  width: 35%;
   background-color: black;
-  font-family: "Special Elite", cursive;
   text-align: center;
 }
 
 .semi-senior .boton a {
   text-decoration: none;
   color: white;
+  font-family: "Special Elite", cursive;
 }
 
 .senior {
   background-color: white;
-  border-radius: 30px;
-  width: 30%;
-  margin: 3%;
-  font-family: "Pacifico", cursive;
+  margin-bottom: 10px;
   -webkit-box-shadow: #26394d 0px 20px 30px -10px;
           box-shadow: #26394d 0px 20px 30px -10px;
 }
 
-.senior h3 {
-  background-color: #AA1E1E;
-  font-family: "Josefin Slab", serif;
-  color: yellow;
-  text-align: center;
-}
-
-.senior ul {
-  font-size: 1.5em;
-}
-
-.senior ul li {
+.senior li {
   list-style: none;
 }
 
 .senior i {
-  margin: 15px;
-  font-size: 1.7em;
+  margin-right: 15px;
 }
 
 .senior .boton {
-  width: 35%;
   background-color: black;
-  font-family: "Special Elite", cursive;
   text-align: center;
 }
 
 .senior .boton a {
   text-decoration: none;
   color: white;
+  font-family: "Special Elite", cursive;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 760px) {
   main {
-    font-size: 75%;
+    font-size: 1.7em;
   }
-  section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
+  main h2 {
+    font-size: 2.1em;
+  }
+  main section {
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .beginner {
-    background-color: white;
-    border-radius: 20px;
-    width: 90%;
-    margin: 3%;
-    font-family: "Pacifico", cursive;
-  }
-  .semi-senior {
-    background-color: white;
-    border-radius: 20px;
-    width: 90%;
-    margin: 3%;
-    font-family: "Pacifico", cursive;
-  }
-  .senior {
-    background-color: white;
-    border-radius: 20px;
-    width: 90%;
-    margin: 3%;
-    font-family: "Pacifico", cursive;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=web.css.map */

@@ -9,6 +9,7 @@ $fuente-links:'Special Elite', cursive;
 
 main{
     background-color: $color_primario;
+    padding:2%;
 
     
     .encabezado__servicio{
@@ -35,7 +36,7 @@ main{
 
 
 }
-@media screen and (max-width:412px) {
+@media screen and (max-width:425px) {
 
     main{
         font-size: 60%;
