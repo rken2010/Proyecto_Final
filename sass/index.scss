@@ -4,10 +4,6 @@ $color_secundario:#FF5000;
 $color_titulo:#AA1E1E;
 $fuente-titulo:'Special Elite', cursive;
 
-@import "header";
-@import "footer";
-
-
 main{
     background-color: $color_primario;
     h1{
