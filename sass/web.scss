@@ -29,6 +29,7 @@ main{
             background-color:$color_titulo;
             text-align: center;
             font-family: $fuente-secundaria;
+            margin-bottom: 5px;
            }
     }
 
@@ -36,11 +37,12 @@ main{
 @each $servicio in beginner,semi-senior,senior {
     .#{$servicio}{
     background-color: white;
-    margin-bottom: 10px;
+    margin: 20px 0 20px 0;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
        li{
             list-style: none;
             font-size: 0.8em;
+            margin:25px;
              }
         i{
             margin-right: 15px;

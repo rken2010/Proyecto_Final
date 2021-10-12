@@ -29,11 +29,12 @@ main section h3 {
   background-color: #AA1E1E;
   text-align: center;
   font-family: "Pacifico", cursive;
+  margin-bottom: 5px;
 }
 
 .beginner {
   background-color: white;
-  margin-bottom: 10px;
+  margin: 20px 0 20px 0;
   -webkit-box-shadow: #26394d 0px 20px 30px -10px;
           box-shadow: #26394d 0px 20px 30px -10px;
 }
@@ -41,6 +42,7 @@ main section h3 {
 .beginner li {
   list-style: none;
   font-size: 0.8em;
+  margin: 25px;
 }
 
 .beginner i {
@@ -60,7 +62,7 @@ main section h3 {
 
 .semi-senior {
   background-color: white;
-  margin-bottom: 10px;
+  margin: 20px 0 20px 0;
   -webkit-box-shadow: #26394d 0px 20px 30px -10px;
           box-shadow: #26394d 0px 20px 30px -10px;
 }
@@ -68,6 +70,7 @@ main section h3 {
 .semi-senior li {
   list-style: none;
   font-size: 0.8em;
+  margin: 25px;
 }
 
 .semi-senior i {
@@ -87,7 +90,7 @@ main section h3 {
 
 .senior {
   background-color: white;
-  margin-bottom: 10px;
+  margin: 20px 0 20px 0;
   -webkit-box-shadow: #26394d 0px 20px 30px -10px;
           box-shadow: #26394d 0px 20px 30px -10px;
 }
@@ -95,6 +98,7 @@ main section h3 {
 .senior li {
   list-style: none;
   font-size: 0.8em;
+  margin: 25px;
 }
 
 .senior i {
