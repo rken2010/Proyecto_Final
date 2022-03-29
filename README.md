@@ -13,10 +13,10 @@ Se usó **animate.css** para las animaciones aplicadas en el sitio (https://anim
 
 Los estilos predeterminados de colores y tipografias se establecieron en el index.css con las siguientes variables:
 
-$color_primario:#E69600;
-$color_secundario:#FF5000;
-$color_titulo:#AA1E1E;
-$fuente-titulo:'Special Elite', cursive;
+$color_primario:#E69600;  
+$color_secundario:#FF5000;  
+$color_titulo:#AA1E1E;  
+$fuente-titulo:'Special Elite', cursive;  
 
 ### Estructura
 ```mermaid
